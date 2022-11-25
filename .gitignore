@@ -1,0 +1,7 @@
+src/database/
+*.ipynb
+*.log
+*.db
+secret_token
+tg_venv
+

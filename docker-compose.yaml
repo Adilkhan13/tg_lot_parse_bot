@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  selenium:
+    image: selenium/standalone-chrome
+
+  telegram_bot:
+    build: .
+    volumes:
+      - ./src/database:/src/database
+    environment: 
+      SELENIUM_HOST: selenium
+      TOKEN: <init token>
+    restart: on-failure
