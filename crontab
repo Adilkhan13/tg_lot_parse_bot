@@ -1,0 +1,5 @@
+# START CRON JOB
+0 * * * * cd /src/app && python ./parsers/gz_parser.py
+0 * * * * cd /src/app && python ./parsers/sk_parser.py
+* * * * * echo "test" >> /crontest.txt 
+# END CRON JOB

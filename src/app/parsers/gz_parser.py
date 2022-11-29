@@ -110,5 +110,8 @@ def gos_zakup_sql_loading(df):
 if __name__ == "__main__":
     URL = r"https://www.goszakup.gov.kz/ru/search/lots?filter%5Bstatus%5D%5B0%5D=220&filter%5Bstatus%5D%5B1%5D=210&filter%5Bstatus%5D%5B2%5D=240"
     URL += yesterday("gz", int(show_sql(DB_LAG)[0][0]))
+
+    print('Gos zakup parser activating...')
     print(URL)
     gos_zakup_main()
+    print('Gos zakup parser end')

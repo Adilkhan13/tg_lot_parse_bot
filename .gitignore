@@ -4,4 +4,3 @@ src/database/
 *.db
 secret_token
 tg_venv
-

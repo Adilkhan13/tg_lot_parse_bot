@@ -178,4 +178,6 @@ def gos_zakup_sql_loading(df):
 
 
 if __name__ == "__main__":
+    print('Samruk parser activating...')
     samruk_main()
+    print('Samruk parser end')

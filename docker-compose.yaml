@@ -10,5 +10,5 @@ services:
       - ./src/database:/src/database
     environment: 
       SELENIUM_HOST: selenium
-      TOKEN: <init token>
+      TOKEN: 5504150749:AAFBlAFQvGO4wnDv_hNuQ8LBm2Xq3xWIyr4
     restart: on-failure

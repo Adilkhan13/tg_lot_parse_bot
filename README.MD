@@ -29,7 +29,6 @@ sudo docker-compose -f docker-compose.yaml up
 
 ### В планах
 - рефакторинг кода
-    -  убрать pandas
-    - Поставить airflow на обновления
+    - убрать pandas
     - добавить healthcheck
     - рефакторинг в ООП(добавление платной подписки к samruk закупу)
